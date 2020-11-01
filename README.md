@@ -1,4 +1,6 @@
-# GraphQL Practice! [(Click Here To Check Out This Repo's Landing Page)](https://asa55.github.io/graphql-practice/)
+# GraphQL Practice! 
+
+## [(Click Here To Check Out This Repo's Landing Page)](https://asa55.github.io/graphql-practice/)
 
 <img alt="GraphQL Logo" src="img/gql-logo.svg" width="30%" />
 
