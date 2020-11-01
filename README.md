@@ -1,6 +1,6 @@
 # GraphQL Practice!
 
-<img alt="GraphQL Logo" style="padding-left:30%" src="gql-logo.svg" width="30%" />
+<img alt="GraphQL Logo" src="img/gql-logo.svg" width="30%" />
 
 ## [Find the official tutorial materials here to learn the theory](https://www.howtographql.com/). Notes to myself are below - this tool is used in GatsbyJS (and many more tools I frequently use) so I'm taking this opportunity for a proper refresher.
 

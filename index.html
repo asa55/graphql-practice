@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charSet="UTF-8"/>
+    <title>Learn GraphQL</title>
+    <meta name="description" content="Overcome REST."/>
+    <meta name="author" content="Alexander S. Augenstein"/>
+    <meta name="keywords" content="GraphQL,Katamari"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=4.0, minimum-scale=1.0"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <style>
+        * {
+          font-family: "Ubuntu", sans-serif;
+          margin: 0;
+          padding: 0;
+          scroll-behavior: smooth;
+        }
+
+        a {
+          color: #0400ff;
+          text-decoration-line: none;
+        }
+
+        a:focus {
+          background-color: #66e946;
+        }
+
+        a:hover {
+          color: #219BE5;
+        }
+
+        body {
+          background-color: #E8EAED;
+          overflow-x: hidden;
+        }
+
+        code {
+          background-color: #d3d3d3;
+          border-radius: 4px;
+          padding: 4px;
+        }
+
+        .flex-container {
+          display: flex;
+        }
+
+        footer {
+          background-color: #E8EAED;
+          font-size: 12px;
+          padding: 16px;
+          text-align: center;
+        }
+
+        h1 {
+          color: #202125;
+          font-size: 32px;
+          text-align: center;
+        }
+
+        header {
+          background-color: #FFFFFF;
+          padding-bottom: 32px;
+          padding-top: 32px;
+          width: 100vw;
+        }
+
+        img {
+            margin: 8px;
+        }
+
+        li {
+            margin: 32px;
+        }
+
+        main {
+          background-color: #FFFFFF;
+          border-radius: 8px;
+          display: none;
+          flex-grow: 1;
+          margin: 16px;
+          padding: 32px;
+        }
+
+        .main {
+          flex-grow: 1;
+          overflow: auto;
+        }
+        
+    </style>
+  </head>
+  <body>
+      <header>
+          <h1>
+              Learning GraphQL? <img alt="GraphQL Logo" src="img/gql-logo.svg" width="64px" /> Practice with local GraphQL server in 5 simple steps:
+          </h1>
+      </header>
+      <main class="main flex-container">
+          <ol>
+              <li>
+                  From the command line (in a folder of your choice), run <code>git clone https://github.com/asa55/graphql-practice.git</code> <br>
+                  <img alt="command line operation" src="img/step-1.png" width="50%" />
+              </li>
+              <li>
+                  From <a href="https://code.visualstudio.com/">VSCode</a> (using the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">"Remote - Containers" extension</a>), "Open Folder In Container". (This step requires <a href="https://www.docker.com/">Docker</a>) <br>
+                  <img alt="Remote Container extension" src="img/step-2.png" width="50%" />
+              </li>
+              <li>
+                  From inside the container (VSCode's terminal works fine), run <code>node index.js</code> <br>
+                  <img alt="node command" src="img/step-3.png" width="50%" />
+              </li>
+              <li>
+                  Using your favorite browser, visit <a href="localhost:4000">localhost:4000</a> <br>
+                  <img alt="screenshot of node server running on localhost:4000" src="img/step-4.png" width="50%" />
+              </li>
+              <li>
+                  Play with GraphQL! Looking for a place to start? <a href="https://github.com/asa55/graphql-practice">Check out my GraphQL notes on GitHub here</a> <br>
+              </li>
+          </ol>
+        </main>
+      <footer>
+          Thanks for reading! <a href="https://asa55.github.io/">Click here to go back to my home page</a>
+      </footer>
+  </body>
+</html>
